@@ -24,6 +24,7 @@ body {
     width: 100vw;
     background-color: transparent;
     margin: 0%;
+    display: block;
 }
 
 .topbar {
@@ -31,11 +32,12 @@ body {
     width: 100vw;
     height: 64px;
     background-color: transparent;
+    padding:5px;
 }
 
 .lefttopbar {
     display: flex;
-    width: 238px;
+    width: 260px;
     height: 48px;
     padding-left: 10px;
 
@@ -48,15 +50,11 @@ body {
 
 .search {
     z-index: 0;
-    position: relative;
-    top: 3px;
-    left: 20px;
-    width: 580px;;
-    height: 46px;
+    width: 620px;;
+    height: 50px;
     border-color: transparent;
     border: none;
     font: normal 16px Google Sans, Roboto, Helvetica, Arial, sans-serif;
-    height: 44px;
     background-color: #dbe1ec;
     outline: none;
 }
@@ -73,36 +71,28 @@ body {
 
 #searchbutton {
     z-index: 1;
-    position: relative;
-    top: 7px;
-    left: 10px;
+    
     background-color:transparent;
     border: none;
     padding: 0;
-    margin-top: 1px;
+    margin-top: 9px;
     cursor: pointer;
     padding: 5px;
     border-radius: 2cm;
 }
 
 .searchdiv {
-    display: flex;
+  
     border: none;
     border-radius: 1cm;
     width: 720px;
-    height: 48px;
-    margin-top: 10px;
-    margin-left: 90px;
+    height: 50px;
     background-color: #dbe1ec;
-   
 
 }
 
 .settingsbutton {
     z-index: 1;
-    position: relative;
-    top: 9px;
-    left: 60px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -114,7 +104,7 @@ body {
 .toprightbar {
     justify-content: end;
     display: flex;
-    width: 90%;
+    width: 20%;
     padding-right: 30px;
 }
 
@@ -181,11 +171,10 @@ body {
     background-color: #5f6165;
     cursor: pointer;
     margin-left: 8px;
-    margin-top: 5px;
     color: #001d35;
     height: 56px;
     width:115px;
-    padding: 0 24px 0 0;
+    padding: 2px 24px 0px 0px;
     min-width: 96px;
     background-color: #c2e7ff;
     box-shadow: 0 1px 2px 0 #0000, 0 1px 3px 1px #0000;
@@ -233,7 +222,7 @@ body {
 .scroll
 {
   
-    overflow-y:scroll;
+    overflow-y:auto;
 }
 .center-body
 {
@@ -245,7 +234,8 @@ body {
    border-radius: 15px;
 }
 .body{
-  width: 98%;  
+padding-top: 0px;
+  width: 100%;  
 display: flex;
 }
 .center-top
