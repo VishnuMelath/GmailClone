@@ -6,13 +6,14 @@
     font-size: 14px;
     letter-spacing: normal;
     overflow: hidden;
+    white-space: nowrap;
 }
 body {
    
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #f6f8fc;
     max-width: vw;
     max-height: vh;
@@ -21,7 +22,7 @@ body {
 
 .container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: transparent;
     margin: 0%;
     display: block;
@@ -183,7 +184,7 @@ body {
 }
 .listitem
 {
-    
+    white-space: nowrap;
     display: inline-block;
     width: 240px;
     height:30px;
@@ -198,6 +199,7 @@ body {
 }
 .listitem0
 {
+    white-space: nowrap;
     padding: 1px;
     padding-top: 2px;
     width: 240px;
@@ -218,7 +220,7 @@ body {
 .sidebar
 {
      display: inline-block;
-     min-width: 240px;
+     min-width: 250px;
 }
 .scroll
 {
@@ -230,9 +232,9 @@ body {
    
     background-color: white;
    width:1265px;
-   height: 75%;
-
+   height: 100%;
    border-radius: 15px;
+   display: block;
 }
 .body{
 padding-top: 0px;
@@ -522,6 +524,7 @@ text-decoration: underline;
    display: flex;
    justify-content: right;
    width: 20%;
+   height: 100%;
 }
 #lastseen
 {
